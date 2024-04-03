@@ -3,8 +3,11 @@ import  CalendarComponent from './CalendarComponent';
 
 function App() {
     return (
-        <div>
-            <CalendarComponent />
+        <div style={{ display: 'grid', justifyContent: 'center', alignItems: 'center'}}>
+            <div>
+                <h1 style={{ textAlign: 'center' }}>BeautyBooking</h1>
+                <CalendarComponent />
+            </div>
         </div>
     );
 }

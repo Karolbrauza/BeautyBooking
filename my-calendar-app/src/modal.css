@@ -1,0 +1,43 @@
+.hour-buttons-container {
+    display: flex;
+    /* Arrange buttons horizontally */
+    justify-content: center;
+    flex-wrap: wrap;
+    /* Allow buttons to wrap to next line */
+    gap: auto;
+    /* Spacing between buttons */
+    width: 350px;
+}
+
+.hour-buttons-container button {
+    padding: 8px 15px;
+    border: 10px;
+    border-radius: 20px;
+    /* Pill shape */
+    background-color: #eee;
+    /* Default color */
+    cursor: progress;
+}
+
+.hour-buttons-container button.active {
+    background-color: #007bff;
+    /* Example 'active' color */
+    color: #fff;
+}
+
+.hour-row {
+    display: flex;
+    justify-content: center;
+    gap: auto;
+    margin-bottom: 20px;
+}
+
+.modal-header {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+h2 {
+    text-align: center;
+}
