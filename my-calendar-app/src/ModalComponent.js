@@ -22,7 +22,7 @@ const ModalContent = ({ selectedDate }) => {
     return (
         <div className="modal-content">
             <div className="modal-header">
-            <h2>Selected Date: {selectedDate ? selectedDate.toLocaleDateString() : 'No date selected'}</h2>
+            <h2>Visit Date: {selectedDate ? selectedDate.toLocaleDateString() : 'No date selected'}</h2>
             </div>
             <>
                 <div className="hour-buttons-container">
